@@ -3,7 +3,7 @@
 A responsive landing page for a fictional Tinder-style app for dogs, built as part of a full-stack web development course.
 
 ## 🔗 Live Demo
-[View on GitHub Pages](#) <!-- Replace # with your GitHub Pages URL after deploying -->
+[View on GitHub Pages](https://giordano0.github.io/TinDog/)
 
 ## 📸 Preview
 <!-- Add a screenshot of your project here -->
