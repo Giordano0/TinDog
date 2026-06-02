@@ -1,0 +1,193 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+#title{
+  overflow: hidden;
+}
+
+#title-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+#download{
+  max-width: 400px;
+}
+
+#download h1{
+  font-weight: 700;
+  font-size: 52px;
+  color: black;
+}
+
+#iphone-container{
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+#iphone{
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+}
+
+.download-button{
+  width: 100%;
+  max-width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px; 
+}
+
+#apple-download{
+  margin-right: 10px;
+}
+
+.icon-container{
+  padding: 10px;
+  background-color: gray;
+  border-radius: 20%;
+}
+
+#testimonial{
+  background-color: rgb(248, 249, 250);
+  
+}
+
+#testimonial-container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 50px;
+}
+
+#testimonial-introduction{
+  height: 100%;
+  text-align: center;
+  max-width: 90%;
+}
+
+#testimonial-text{
+  font-size: 32px;
+  color: black;
+}
+
+#profile-img {
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 2px;
+}
+
+#sponsor-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  width: 90%;
+  margin-top: 50px;
+  padding-bottom: 80px;
+}
+
+.sponsor{
+  height: 30px;
+}
+
+#pricing{
+  padding-top: 50px;
+}
+
+#footer{
+  width: 100%;
+}
+
+#footer-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  gap: 40px;
+  padding: 70px;
+}
+
+.footer-list-title{
+  font-size: 22px;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+#logo{
+  grid-column-start: 2;
+}
+
+#first{
+  grid-column-start: 4;
+}
+
+@media (max-width: 768px){
+  #title-container{
+    flex-direction: column-reverse;
+    padding-bottom: 20px;
+  }
+
+  #iphone{
+    max-width: 200px;
+  }
+
+  #download{
+    max-width: 100%;
+  }
+
+  #download h1{
+    font-size: 40px;
+  }
+
+  #download-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .download-button{
+    max-width: 100%;
+  }
+
+  #testimonial{
+    max-height: 100%;
+    padding: 10px;
+  }
+
+  #sponsor-container{
+    flex-direction: column;
+  }
+}
