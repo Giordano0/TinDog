@@ -131,7 +131,7 @@
 
 #footer-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 40px;
   padding: 70px;
 }
@@ -146,11 +146,11 @@ ul{
 }
 
 #logo{
-  grid-column-start: 2;
+  grid-column-start: 1;
 }
 
 #first{
-  grid-column-start: 4;
+  grid-column-start: 2;
 }
 
 @media (max-width: 768px){
