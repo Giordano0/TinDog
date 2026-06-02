@@ -123,10 +123,14 @@
 
 #pricing{
   padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
 }
 
 #footer{
   width: 100%;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 #footer-container{
